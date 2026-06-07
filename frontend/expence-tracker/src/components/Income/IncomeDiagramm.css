@@ -1,0 +1,88 @@
+.income-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    margin-top: 1rem;
+}
+
+.income-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.income-header-text {
+    max-width: 70%;
+}
+
+.income-title {
+    font-size: 1.25rem;
+    margin: 0;
+}
+
+.income-subtitle {
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 4px;
+}
+
+.add-income-btn {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.add-income-btn:hover {
+    background-color: #006400;
+}
+
+.icon {
+    font-size: 1.1rem;
+}
+
+.income-chart {
+    margin-top: 2rem;
+}
+.filter-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-controls select,
+.filter-controls button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    min-width: 150px;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-controls select:focus,
+.filter-controls button:focus {
+    outline: none;
+    border-color: #002f2f;
+    box-shadow: 0 0 0 2px rgb(0, 47, 47);
+}
+
+.filter-controls button {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.filter-controls button:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,122 @@
+.transaction-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .transaction-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.icon-base {
+    font-size: 1rem;
+}
+
+
+.form-footer-expense {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    background-color: darkgreen !important;
+
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+}
+
+.add-income-form {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+
+}
+
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.add-btn-income {
+    background-color: #002f2f;
+    color: white;
+    border: 1px solid darkgreen;
+    transition: background-color 0.2s ease;
+}
+
+.add-btn-income:hover {
+    background-color: darkgreen;
+}
+
+
+.add-income-form {
+    display: flex;
+    flex-direction: column;
+    background-color: darkgreen;
+    text-color:black;
+}
+
+.EmojiPickerPopup{
+    color:black;
+}
+
+.income-summary-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.income-summary-card {
+  flex: 1;
+  min-width: 220px;
+  padding: 1.2rem;
+  border-radius: 1rem;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.income-summary-card.this-month {
+  background-color: #e6f7e6;
+}
+
+.income-summary-card.last-month {
+  background-color: #f2f2f2;
+}
+
+.income-summary-card.total-income {
+  background-color: #e6f0ff;
+}
+
+.summary-label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+  color: #333;
+}
+
+.summary-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #111;
+}
+.clean-income-amount {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #00aa55; 
+  margin: 0;
+}

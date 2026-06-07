@@ -1,0 +1,37 @@
+.input-label {
+    font-size: 13px;
+    color: black;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid #000002;
+    border-radius: 0.5rem;
+    background-color: #f1f5f9;
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    flex: 1;
+    font-size: 1rem;
+    color: black;
+    background: white;
+    border: none;
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: black;
+    opacity: 0.6;
+}
+
+.input-eye {
+    font-size: 1.25rem;
+    color: #999;
+    cursor: pointer;
+}

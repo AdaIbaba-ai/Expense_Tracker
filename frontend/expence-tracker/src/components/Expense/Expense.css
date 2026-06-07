@@ -1,0 +1,128 @@
+.transaction-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .transaction-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.icon-base {
+    font-size: 1rem;
+}
+
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+}
+
+.add-expense-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #8e4848;
+
+}
+
+.form-footer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.5rem;
+    background-color: #8e4848;
+}
+
+.btn {
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 0.95rem;
+    border: none;
+    cursor: pointer;
+}
+
+
+.add-btn-expense {
+    background-color: #8e4848;
+    color: white;
+    border: 1px solid #8e4848;
+    transition: background-color 0.2s ease;
+}
+
+.add-btn-expense:hover {
+    background-color: #8e4848;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: none; /* entferne grauen Rand */
+    background-color: #8e4848; /* rot, falls gewünscht */
+    color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+
+}
+
+
+.expense-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.expense-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
+}
+
+.expense-download-btn {
+    background-color: #8e4848;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.expense-download-btn:hover {
+    background-color: #732d2d;
+}
+
+.icon-base {
+    font-size: 1rem;
+}
+
+
+
+.expense-download-btn:hover {
+    background-color: #fee2e2;
+}
+
+.excel-icon {
+    width: 20px;
+    height: 20px;
+}

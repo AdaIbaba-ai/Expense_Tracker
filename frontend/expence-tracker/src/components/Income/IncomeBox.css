@@ -1,0 +1,94 @@
+.income-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    padding: 1.5rem;
+    border: 1px solid #eee;
+    margin-bottom: 2rem;
+}
+
+.income-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.income-card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #222;
+    margin: 0;
+}
+
+.income-download-btn {
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.income-download-btn:hover {
+    background-color: #0b5e0b;
+}
+
+.icon {
+    font-size: 1rem;
+}
+
+.income-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+@media (min-width: 768px) {
+    .income-grid {
+        grid-template-columns: repeat(1fr);
+    }
+}
+.income-card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9ff;
+    padding: 12px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 12px;
+}
+
+.edit-btn,
+.delete-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #555;
+    transition: color 0.2s ease;
+}
+
+.edit-btn:hover {
+    color: #4caf50;
+}
+
+.delete-btn:hover {
+    color: #f44336;
+}
+.action-buttons-inline {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-right: 8px;
+}

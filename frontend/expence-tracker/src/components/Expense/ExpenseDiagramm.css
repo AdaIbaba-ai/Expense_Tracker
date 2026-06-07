@@ -1,0 +1,79 @@
+
+
+.overview-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overview-title h5 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #111827;
+    margin: 0;
+}
+
+.overview-description {
+    font-size: 0.75rem;
+    color: #6b7280;
+    margin-top: 0.25rem;
+}
+
+.add-expense-btn {
+    background-color: #781414;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    font-size: 0.875rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: background-color 0.2s ease;
+}
+
+.add-expense-btn:hover {
+    background-color: indianred;
+}
+.income-chart {
+    margin-top: 2rem;
+}
+.overview-chart {
+    margin-top: 2.5rem;
+}
+.filter-controls {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.filter-controls select,
+.filter-controls button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    color: #333;
+    min-width: 150px;
+    transition: all 0.2s ease-in-out;
+}
+
+.filter-controls select:focus,
+.filter-controls button:focus {
+    outline: none;
+    border-color: #002f2f;
+    box-shadow: 0 0 0 2px rgb(0, 47, 47);
+}
+
+.filter-controls button {
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.filter-controls button:hover {
+    background-color: #ddd;
+}
